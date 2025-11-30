@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="metro_blue">#0056D2</color>
+    <color name="metro_blue_dark">#003C8F</color>
+    <color name="auto_yellow">#FFAB00</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="text_primary">#1F1F1F</color>
+    <color name="text_secondary">#757575</color>
+
+    <color name="line_red">#D32F2F</color>
+    <color name="line_green">#388E3C</color>
+    <color name="line_blue">#0056D2</color>
+    <color name="line_default">#757575</color>
+</resources>

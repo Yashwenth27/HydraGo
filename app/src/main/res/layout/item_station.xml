@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/lineTop"
+        android:layout_width="2dp"
+        android:layout_height="40dp"
+        android:background="@color/metro_blue"
+        android:layout_marginStart="9dp"
+        android:layout_alignTop="@+id/stationName"
+        android:layout_alignBottom="@+id/stationName" />
+
+    <View
+        android:id="@+id/dot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/circle_blue"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp" />
+
+    <TextView
+        android:id="@+id/stationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Station Name"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:layout_toEndOf="@id/dot"
+        android:layout_marginStart="16dp"
+        android:paddingVertical="12dp"/>
+
+</RelativeLayout>
